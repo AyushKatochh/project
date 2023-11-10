@@ -1,0 +1,141 @@
+/* Reset default margin and padding */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply background image to the entire page */
+body {
+    background-image: url('foodie.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    font-family: Arial, sans-serif;
+}
+
+/* Style the header section */
+header {
+    text-align: center;
+    padding: 20px;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+/* Centering the "Welcome to Our Website" text */
+.main-content {
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #6f00ff;
+    background: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* Your existing styles... */
+
+/* Adjust spacing between navbar headings */
+.navbar-nav .nav-link {
+    margin-right: 50px;
+}
+
+/* Centered div styles */
+.centered-div {
+    margin: 0 auto;
+    width: 60%;
+    text-align: center;
+    color: #333;
+    font-weight: bolder;
+}
+.about-image {
+    width: 300px; /* Set image width */
+    height: auto; /* Maintain aspect ratio */
+    margin-bottom: 20px; /* Add margin for spacing */
+}
+/* Existing CSS remains unchanged */
+
+/* Adjust the dimensions of the feedback form */
+.feedback-form {
+    max-width: 400px; /* Set the maximum width as needed */
+    margin: 0 auto; /* Center the form horizontally */
+    padding: 20px; /* Add padding for spacing */
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.5); /* Example background color with some transparency */
+}
+
+#about {
+    text-align: center;
+}
+
+
+.feedback-form label,
+.feedback-form input[type="text"],
+.feedback-form input[type="email"],
+.feedback-form textarea,
+.feedback-form input[type="submit"] {
+    display: block;
+    width: calc(100% - 20px); /* Adjust width as needed */
+    margin-bottom: 10px; /* Spacing between elements */
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.feedback-form textarea {
+    height: 100px; /* Adjust height of the textarea as needed */
+}
+
+
+.feedback-form input[type="submit"] {
+    margin-top: 10px; /* Adjust the top margin as needed */
+    background-color: #007bff; /* Blue background color */
+    color: white; /* Text color */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.feedback-form input[type="submit"]:hover {
+    background-color: #0056b3; /* Darker shade of blue on hover */
+}
+
+
+/* Style the sections */
+.section {
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+/* Additional styling for section headings and content */
+.section h2,h3,h4,h5,h6, .section p {
+    margin: 10px 0;
+    color: #333;
+}
+
+/* Adjust spacing between navbar elements */
+.navbar-nav .nav-item {
+    margin-right: 15px;
+}
+
+/* Footer styling */
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
